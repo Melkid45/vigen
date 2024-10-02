@@ -219,9 +219,15 @@ body {
     font-weight: 300;
     line-height: 24px;
     text-align: left;
-    color: #000
+    color: #000;
+    transition: all 0.3s ease;
 }
-
+.main__body-feedback-form-item-info input:hover{
+    border: 1px solid #fb4b5f;
+}
+.main__body-feedback-form-item-info input:focus{
+    border: 1px solid #fb4b5f;
+}
 .main__body-feedback-form-item-choose {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -546,7 +552,14 @@ body {
     color: #000;
     padding-left: 12px;
     background: #f7f8fa;
-    margin-top: 12px
+    margin-top: 12px;
+    transition: all 0.3s ease;
+}
+.main__body-feedback-form-item-desc:hover{
+    border: 1px solid #fb4b5f;
+}
+.main__body-feedback-form-item-desc:focus{
+    border: 1px solid #fb4b5f;
 }
 
 .main__body-feedback-form-btn {
@@ -1128,7 +1141,12 @@ a {
         text-align: left;
         color: #000
     }
-
+    .main__body-feedback-form-item-info input:hover{
+        border: 1rem solid #fb4b5f;
+    }
+    .main__body-feedback-form-item-info input:focus{
+        border: 1rem solid #fb4b5f;
+    }
     .main__body-feedback-form-item-choose {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1455,7 +1473,12 @@ a {
         background: #f7f8fa;
         margin-top: 12rem
     }
-
+    .main__body-feedback-form-item-desc:hover{
+        border: 1rem solid #fb4b5f;
+    }
+    .main__body-feedback-form-item-desc:focus{
+        border: 1rem solid #fb4b5f;
+    }
     .main__body-feedback-form-btn {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1964,7 +1987,12 @@ a {
         text-align: left;
         color: #000
     }
-
+    .main__body-feedback-form-item-info input:hover{
+        border: 1rem solid #fb4b5f;
+    }
+    .main__body-feedback-form-item-info input:focus{
+        border: 1rem solid #fb4b5f;
+    }
     .main__body-feedback-form-item-choose {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -2295,7 +2323,12 @@ a {
         background: #f7f8fa;
         margin-top: 12rem
     }
-
+    .main__body-feedback-form-item-desc:hover{
+        border: 1rem solid #fb4b5f;
+    }
+    .main__body-feedback-form-item-desc:focus{
+        border: 1rem solid #fb4b5f;
+    }
     .main__body-feedback-form-btn {
         display: -webkit-box;
         display: -ms-flexbox;
