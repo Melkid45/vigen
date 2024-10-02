@@ -1,0 +1,27 @@
+.footer{
+    width: 100%;
+    margin-top: 80px;
+    &__body{
+        width: 100%;
+        padding: 24px 0;
+        border-top: 1px solid #DDDFE2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-logo{
+            width: 69px;
+            height: 29px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        span{
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: left;
+            color: #888;
+        }
+    }
+}

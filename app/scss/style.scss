@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Raydis';
+    src: url(../fonts/RAYDIS.woff);
+    font-weight: 700;
+}
+body{
+    max-width: 1920px;
+    background-color: #F3F3F3;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1640px;
+    margin: 0 auto;
+}

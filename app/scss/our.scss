@@ -1,0 +1,49 @@
+.our{
+    width: 100%;
+    margin-top: 80px;
+    &__body{
+        display: flex;
+        align-items: center;
+        gap: 125px;
+        justify-content: center;
+        &-text{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            &-title{
+                font-family: var(--ray);
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 56px;
+                text-align: left;
+                color: #333333;
+    
+                span {
+                    color: #FB4B5F;
+                }
+            }
+            p{
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 26px;
+                text-align: left;
+                max-width: 625px;
+                color: #333333;
+            }
+        }
+        &-block{
+            width: 726px;
+            height: 481px;
+            background: url(../images/dist/our.png) center no-repeat;
+            background-size: cover;
+            position: relative;
+            img{
+                width: 114px;
+                height: 105px;
+                position: absolute;
+                top: -38px;
+                right: -36px;
+            }
+        }
+    }
+}
